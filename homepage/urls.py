@@ -8,6 +8,6 @@ app_name = "homepage"
 
 urlpatterns = [
 
-    path('page/', views.home, name='home')
+    path('', views.home, name='home')
 
     ]
