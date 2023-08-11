@@ -7,3 +7,5 @@ def home(request):
     return render(request, 'home.html')
 def nav(request):
     return render(request, 'nav.html')
+def profile(request):
+    return render(request, 'profile.html')
